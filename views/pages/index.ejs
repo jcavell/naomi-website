@@ -1,80 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <% include ../partials/header.ejs %>
+    <% include ../partials/header.ejs %>
 </head>
 
 <body>
 
-<div class="jumbotron text-center">
-  <div class="container">
+<% include ../partials/topAndNav.ejs %>
 
-  <h1>Welcome</h1>
+<div class="container" style="margin-top:30px">
+    <div class="row">
+        <% include ../partials/sidebar.ejs %>
+        <div class="col-sm-8">
+            <h2>Welcome</h2>
+            <p>Sometimes life can be overwhelming.  Many people find that events in the present day activate memories and feelings from the past, making it hard to cope with their day to day lives. That’s when psychological therapy can help, making sense of thoughts and feelings and helping you to live your life in the way you want.</p>
 
-    <p>Sometimes life can be overwhelming.  Many people find that events in the present day activate memories and feelings from the past, making it hard to cope with their day to day lives. That’s when psychological therapy can help, making sense of thoughts and feelings and helping you to live your life in the way you want.</p>
-
-       <p>I am a clinical psychologist and EMDR-Europe Accredited Consultant. I work remotely, offering both therapy and supervision. I use EMDR and CBT, particularly Acceptance and Commitment Therapy.  I also offer consultation and support for parents. My approach is always tailored to your individual needs, starting with what you want to change.</p>
-
-       <p>Contact me on naomicfisher@gmail.com to find out how I might be able to help you.</p>
-  </div>
-</div>
-
-<div class="container">
-
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3>Supervision</h3>
-
-<p>I offer specialist supervision in EMDR to qualified mental health professionals who have completed at least Level 1 EMDR training. I can help you work towards accreditation as an EMDR Practitioner.</p>
-</div>
-
- <div class="row">
-    <div class="col-md-6">
-      <h3>Parent consultations</h3>
-
-<p>Sometimes being with our children brings up strong emotions. It can be hard to understand their behaviour as well as our own reactions to them. I work with parents who want a space to reflect on their experiences with their children and who would like to explore gentle and non-punitive ways to help their children. I also work with parents who have experienced birth trauma or who are traumatised by events in the lives of their children, for example receiving diagnoses.</p>
-
-</div>
-
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3></span> EMDR</h3>
-      <ul>
-        <li>EMDR is an acronym for 'Eye Movement Desensitisation and Reprocessing'. It was developed by Dr Francine Shapiro in the 1980s. It uses bilateral stimulation - often but not always eye movements - to help process blocked memories from the past.</li>
-
-        <li>When someone experiences a distressing event, they can feel emotionally overwhelmed and their brain may be unable to make sense of what is happening to them. The memory of this event will then be different to their other memories - it is often fragmented, with lots of bodily sensations and emotions. When the person thinks of the event, it’s like it is happening again and this is very distressing.</li>
-
-        <li>Sometimes people can try to avoid reminders of what happened and avoid thinking about the experience. The memories however do not go away, and they can pop into the person’s head at any time, causing intense and unpredictable distress. These memories do not become less distressing over time, unlike normal memories, and it can feel like events that happened years ago are as upsetting as if they happened yesterday.</li>
-
-        <li>EMDR seems to stimulate the blocked information processing system, allowing the memory to be integrated into our experience and to become more like other memories. The memory will not go away, but it should feel less intensely distressing. It’s the difference between being able to remember than something was distressing but no longer feeling the distress, and feeling as if it’s happening again.</li>
-
-        <li>There is good evidence that EMDR can help people with post-traumatic stress disorder, and it can also help people with other mental health problems where memories from the past are causing distress in the present day.</li>
-      </ul>
+            <p>I am a clinical psychologist and EMDR-Europe Accredited Consultant. I work remotely, offering both therapy and supervision. I use EMDR and CBT, particularly Acceptance and Commitment Therapy.  I also offer consultation and support for parents. My approach is always tailored to your individual needs, starting with what you want to change.</p>
+            <br>
+        </div>
     </div>
-    <div class="col-md-6">
-      <h3>CBT</h3>
-      <ul>
-       <li>Cognitive behavioural therapy looks at the relationship between thoughts, feelings, behaviour and how our body feels.  It aims to identify patterns which might be keeping people feeling stuck, and looks at ways to change. It is often focused on making changes in the here and now but can also be look at how past experiences have led to present reactions.</li>
-
-       <li>There is a strong evidence base for CBT with a range of mental health problems, including depression and many anxiety-related problems.</li>
-
-        </ul>
-      </ul>
-      <h3>ACT</h3>
-      <ul>
-        <li>Acceptance and commitment therapy is a form of CBT which focuses on willingness to accept how we feel right now, and making a commitment to behave in a way which is consistent with our values. It uses techniques from mindfulness alongside commitment to behaviour change with the aim of increasing psychological flexibility.</li>
-
-        <li>Psychological flexibility from an ACT perspective means being able to change or stick with our behaviour based on the current situation, whilst staying in contact with the present moment and our emotions.</li>
-      </ul>
-    </div>
-  </div> <!-- row -->
-   <div class="alert alert-info text-center" role="alert">
-    Contact me on naomicfisher@gmail.com to find out how I might be able to help you.
-  </div>
 </div>
 
+<% include ../partials/footer.ejs %>
 
 </body>
 </html>
+
